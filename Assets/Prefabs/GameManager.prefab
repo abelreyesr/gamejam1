@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5870507595988372612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2487553764067527034}
+  - component: {fileID: 1358581728279683729}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2487553764067527034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5870507595988372612}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1358581728279683729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5870507595988372612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78aef08039a722445b6aeb5889222e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  _state: 0
+  _mainMenuScene: MainMenu
+  _gameplayScene: Game
+  _slowMoTimeScale: 0.1
+  _slowMoRampDuration: 0.4
+  _slowMoHoldDuration: 1.2
+  _slowMoRecoverDuration: 0.6
+  _victoryFx: {fileID: 0}
+  _defeatFx: {fileID: 0}
+  _victoryStingerSfx: {fileID: 0}
+  _defeatStingerSfx: {fileID: 0}
+  _menuMusic: {fileID: 8300000, guid: 998f9e1e970f9084289b74b8a2af844e, type: 3}
+  _battleMusic: {fileID: 8300000, guid: fe1e2a92b7645e546bc3570294661e98, type: 3}
